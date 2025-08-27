@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fully Transparent -->
+    <color name="transparent">#00000000</color>
+
+    <!-- Soft Transparent Black (Good for overlay effects) -->
+    <color name="soft_black">#66000000</color> <!-- 40% Transparent Black -->
+    <color name="deep_black">#99000000</color> <!-- 60% Transparent Black -->
+
+    <!-- Soft Transparent White (Good for light themes) -->
+    <color name="soft_white">#66FFFFFF</color> <!-- 40% Transparent White -->
+    <color name="deep_white">#99FFFFFF</color> <!-- 60% Transparent White -->
+
+    <!-- Interactive & Modern Colors -->
+    <color name="cool_blue">#8080D8FF</color> <!-- 50% Transparent Cool Blue -->
+    <color name="vibrant_blue">#4028A0FF</color> <!-- 25% Transparent Vibrant Blue -->
+
+    <color name="aqua_glow">#8040E0C0</color> <!-- 50% Transparent Aqua Glow -->
+    <color name="mint_green">#8028D880</color> <!-- 50% Transparent Mint Green -->
+    <color name="lime_green">#80A0FF40</color> <!-- 50% Transparent Lime Green -->
+
+    <color name="sunset_orange">#80FF7040</color> <!-- 50% Transparent Sunset Orange -->
+    <color name="golden_yellow">#80FFD740</color> <!-- 50% Transparent Golden Yellow -->
+
+    <!-- Pastel Shades for a Soft UI -->
+    <color name="pastel_purple">#80D8BFD8</color> <!-- 50% Transparent Pastel Purple -->
+    <color name="pastel_pink">#80FFC0CB</color> <!-- 50% Transparent Pastel Pink -->
+
+</resources>

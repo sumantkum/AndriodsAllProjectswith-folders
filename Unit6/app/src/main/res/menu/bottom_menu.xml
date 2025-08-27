@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_24px"
+        android:title="Home" />
+    <item
+        android:id="@+id/shorts"
+        android:title="shorts"
+        android:icon="@drawable/whatshot_24px" />
+
+    <item
+        android:id="@+id/nav_subscriptions"
+        android:icon="@drawable/subscriptions_24px"
+        android:title="Subscriptions" />
+
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@drawable/baseline_add_home_24"
+        android:title="Library" />
+
+</menu>

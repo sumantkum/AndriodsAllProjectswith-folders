@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.woxthebox.draglistview.sample"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:27.1.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':library')
+    compile project(':library2')
+    compile 'com.android.support:appcompat-v7:27.1.0'
+    compile 'com.android.support:cardview-v7:27.1.0'
+    implementation 'com.android.support:recyclerview-v7:27.1.0'
+    implementation 'com.android.support:design:27.1.0'
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile project(path: ':laser-native-editor')
+    compile 'com.github.pchmn:MaterialChipsInput:1.0.8'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.8'
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile files('libs/volley.jar')
+//    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.google.code.gson:gson:2.6.2'
+    compile 'com.github.baoyachi:StepView:1.9'
+    compile 'com.layer-net:step-indicator:1.1.0'
+}

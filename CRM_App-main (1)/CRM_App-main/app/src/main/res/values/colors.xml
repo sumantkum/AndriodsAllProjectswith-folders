@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="purple_200">#A78BFA</color>  <!-- Light Purple -->
+    <color name="purple_500">#7C3AED</color>  <!-- Bright Purple -->
+    <color name="purple_700">#5B21B6</color>  <!-- Deep Purple -->
+
+    <!-- Accent Colors -->
+    <color name="teal_200">#66D9E8</color>  <!-- Light Aqua Blue -->
+    <color name="teal_700">#00897B</color>  <!-- Darker Aqua Blue -->
+
+    <!-- Neutral Colors -->
+    <color name="black">#1E1E1E</color>  <!-- Dark Grey (Better than pure black) -->
+    <color name="white">#F5F5F5</color>  <!-- Soft White (Less strain on eyes) -->
+
+    <!-- Alert & Interactive Colors -->
+    <color name="red">#E53935</color>  <!-- Bright Red (Error, Warning) -->
+    <color name="blue">#2979FF</color>  <!-- Deep Blue (Primary Action) -->
+    <color name="yellow">#FFD700</color>  <!-- Gold Yellow (More Premium & Elegant) -->
+    <color name="pink">#D81B60</color>  <!-- Rich Pink (Energetic) -->
+
+    <!-- Extra Interactive Colors -->
+    <color name="purple">#9C27B0</color>  <!-- Vibrant Purple -->
+    <color name="green">#4CAF50</color>  <!-- Modern Green (Success, Positive Actions) -->
+    <color name="orange">#FD7C11</color>  <!-- Bright Orange (Call to Action) -->
+    <color name="dark_orange">#E65100</color>  <!-- Deep Orange for Contrast -->
+
+    <!-- Toggle Button Group Style -->
+    <style name="ToggleButtonGroupStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/custom_selector</item>
+    </style>
+</resources>

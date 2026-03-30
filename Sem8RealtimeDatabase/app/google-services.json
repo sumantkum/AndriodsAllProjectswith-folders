@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "992737280895",
+    "project_id": "sem8realtimecurd",
+    "storage_bucket": "sem8realtimecurd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992737280895:android:738c3c9256ed2b45a3d04a",
+        "android_client_info": {
+          "package_name": "com.example.sem8realtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvEjHQxqzllc89demck-gZ_ESj-FTKB40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

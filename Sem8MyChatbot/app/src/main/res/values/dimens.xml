@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">16dp</dimen>
+    <dimen name="spacing_lg">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="corner_sm">8dp</dimen>
+    <dimen name="corner_md">16dp</dimen>
+    <dimen name="corner_lg">24dp</dimen>
+    <dimen name="corner_pill">50dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_xs">10sp</dimen>
+    <dimen name="text_sm">12sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_md">16sp</dimen>
+    <dimen name="text_lg">20sp</dimen>
+    <dimen name="text_xl">24sp</dimen>
+    <dimen name="text_xxl">32sp</dimen>
+
+    <!-- Chat bubble max width -->
+    <dimen name="bubble_max_width">280dp</dimen>
+
+    <!-- Avatar sizes -->
+    <dimen name="avatar_sm">28dp</dimen>
+    <dimen name="avatar_md">36dp</dimen>
+    <dimen name="avatar_lg">44dp</dimen>
+
+    <!-- Toolbar height -->
+    <dimen name="toolbar_height">60dp</dimen>
+
+    <!-- Card elevation -->
+    <dimen name="card_elevation">4dp</dimen>
+</resources>

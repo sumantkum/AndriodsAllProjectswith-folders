@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "882973983490",
+    "project_id": "sem8fire",
+    "storage_bucket": "sem8fire.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882973983490:android:de721808b45bf3e209381b",
+        "android_client_info": {
+          "package_name": "com.example.sem8firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZwTntH5Fs6nkYGAt5TEPctfudassm2uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

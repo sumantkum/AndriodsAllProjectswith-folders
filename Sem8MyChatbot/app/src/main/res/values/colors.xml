@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ══════════════════════════════════════════════════ -->
+    <!-- PRIMARY PALETTE — Dark futuristic theme           -->
+    <!-- ══════════════════════════════════════════════════ -->
+
+    <!-- Background Colors -->
+    <color name="bg_dark">#0A0A1A</color>
+    <color name="bg_splash">#0D0D21</color>
+    <color name="bg_card">#12122A</color>
+
+    <!-- Accent / Brand Colors — Electric blue-purple -->
+    <color name="accent_primary">#6C63FF</color>
+    <color name="accent_secondary">#A78BFA</color>
+    <color name="accent_glow">#4040FF</color>
+
+    <!-- Message Bubbles -->
+    <color name="user_bubble_bg">#6C63FF</color>
+    <color name="ai_bubble_bg">#1A1A35</color>
+
+    <!-- Input Area -->
+    <color name="input_bg">#14142E</color>
+
+    <!-- Card Backgrounds -->
+    <color name="card_bg">#13132B</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#F0F0FF</color>
+    <color name="text_secondary">#8888AA</color>
+    <color name="hint_color">#404060</color>
+
+    <!-- Icon tint -->
+    <color name="icon_tint">#8888CC</color>
+
+    <!-- Status -->
+    <color name="status_online">#4ADE80</color>
+    <color name="error_bg">#2D1010</color>
+    <color name="error_text">#FF6B6B</color>
+
+    <!-- Gradient stops for onboarding -->
+    <color name="gradient_start_1">#6C63FF</color>
+    <color name="gradient_end_1">#9B59B6</color>
+    <color name="gradient_start_2">#00B4D8</color>
+    <color name="gradient_end_2">#6C63FF</color>
+    <color name="gradient_start_3">#F59E0B</color>
+    <color name="gradient_end_3">#EF4444</color>
+
+    <!-- Switch colors -->
+    <color name="switch_track_tint">#30FFFFFF</color>
+    <color name="switch_thumb_tint">#6C63FF</color>
+
+    <!-- Utility -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#20FFFFFF</color>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AI message bubble — left-aligned with glassmorphism card and action buttons -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="4dp"
+    android:paddingHorizontal="8dp">
+
+    <!-- AI Avatar with glow -->
+    <ImageView
+        android:id="@+id/imgAiAvatar"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_ai_avatar"
+        android:background="@drawable/avatar_glow_bg"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- AI name label -->
+    <TextView
+        android:id="@+id/tvAiName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gemini"
+        android:textColor="@color/accent_primary"
+        android:textSize="11sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toEndOf="@id/imgAiAvatar"
+        app:layout_constraintTop_toTopOf="@id/imgAiAvatar"
+        app:layout_constraintBottom_toBottomOf="@id/imgAiAvatar" />
+
+    <!-- Main message card (glassmorphism style) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="4dp"
+        app:cardMaxElevation="8dp"
+        app:layout_constraintStart_toEndOf="@id/imgAiAvatar"
+        app:layout_constraintTop_toBottomOf="@id/tvAiName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontalBias="0.0"
+        android:layout_marginEnd="48dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp">
+
+            <!-- Message content -->
+            <TextView
+                android:id="@+id/tvMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:fontFamily="@font/poppins_regular"
+                android:lineSpacingExtra="4dp"
+                android:maxWidth="280dp" />
+
+            <!-- Timestamp -->
+            <TextView
+                android:id="@+id/tvTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#60FFFFFF"
+                android:textSize="10sp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Action buttons row (copy, share, regenerate) -->
+    <LinearLayout
+        android:id="@+id/layoutActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@id/imgAiAvatar"
+        app:layout_constraintTop_toBottomOf="@id/cardView">
+
+        <!-- Copy -->
+        <ImageButton
+            android:id="@+id/btnCopy"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_copy"
+            android:background="@drawable/btn_action_bg"
+            android:tint="@color/icon_tint"
+            android:padding="5dp"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="Copy" />
+
+        <!-- Share -->
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_share"
+            android:background="@drawable/btn_action_bg"
+            android:tint="@color/icon_tint"
+            android:padding="5dp"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="Share" />
+
+        <!-- Regenerate -->
+        <ImageButton
+            android:id="@+id/btnRegenerate"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/ic_refresh"
+            android:background="@drawable/btn_action_bg"
+            android:tint="@color/icon_tint"
+            android:padding="5dp"
+            android:layout_marginEnd="4dp"
+            android:contentDescription="Regenerate" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:background="#30FFFFFF"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="4dp" />
+
+        <!-- Reaction buttons -->
+        <TextView
+            android:id="@+id/btnReactThumb"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:text="👍"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@drawable/btn_action_bg"
+            android:layout_marginEnd="4dp" />
+
+        <TextView
+            android:id="@+id/btnReactHeart"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:text="❤️"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@drawable/btn_action_bg"
+            android:layout_marginEnd="4dp" />
+
+        <TextView
+            android:id="@+id/btnReactStar"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:text="⭐"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:background="@drawable/btn_action_bg" />
+
+    </LinearLayout>
+
+    <!-- Emoji reaction badge -->
+    <TextView
+        android:id="@+id/tvReaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@drawable/reaction_bg"
+        android:padding="2dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/cardView"
+        app:layout_constraintStart_toEndOf="@id/imgAiAvatar"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="-8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

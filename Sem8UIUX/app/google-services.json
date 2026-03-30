@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240245041842",
+    "project_id": "sem8ui",
+    "storage_bucket": "sem8ui.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240245041842:android:af8f647145a7620428b7ab",
+        "android_client_info": {
+          "package_name": "com.example.sem8uiux"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf2YBWJ-fDlS_Wk-XrTy4X1rkLz7kP1sU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

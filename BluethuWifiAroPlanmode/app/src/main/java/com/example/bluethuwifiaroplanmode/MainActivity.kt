@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        // 📶 WiFi Button
+
         btnWifi.setOnClickListener {
             val intent = Intent(Settings.Panel.ACTION_WIFI)
             startActivity(intent)

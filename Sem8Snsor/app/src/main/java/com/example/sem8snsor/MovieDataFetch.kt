@@ -29,10 +29,7 @@ class MovieDataFetch : AppCompatActivity() {
 
         recyclerView.layoutManager = LinearLayoutManager(this)
 
-        // ❌ REMOVE this line
-        // fetchMovies()
 
-        // ✅ Button click पर API call
         btnLoad.setOnClickListener {
             fetchMovies()
         }

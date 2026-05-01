@@ -10,6 +10,7 @@ class HutView(context: Context) : View(context) {
     private val paint: Paint = Paint()
 
     override fun onDraw(canvas: Canvas) {
+
         super.onDraw(canvas)
 
         paint.color = Color.GREEN

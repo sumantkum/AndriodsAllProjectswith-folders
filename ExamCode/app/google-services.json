@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "428886088273",
+    "firebase_url": "https://myloginexam-default-rtdb.firebaseio.com",
+    "project_id": "myloginexam",
+    "storage_bucket": "myloginexam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428886088273:android:6f90439f90c0eccf71b670",
+        "android_client_info": {
+          "package_name": "com.example.examcode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC65TPFuCEaMFRcUiozYaIxzLSeiTm8cvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

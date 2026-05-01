@@ -17,6 +17,7 @@ class TrafficLightView(context: Context, attrs: AttributeSet?) : View(context, a
     private var isDetached = false
 
     fun toggleDetach() {
+
         val target = if (isDetached) 0f else 1f
 
         val animator = ValueAnimator.ofFloat(detachProgress, target)
@@ -75,7 +76,7 @@ class TrafficLightView(context: Context, attrs: AttributeSet?) : View(context, a
         path.close()
         canvas.drawPath(path, paint)
 
-        // ===== Red (move left + up) =====
+//         ===== Red (move left + up) =====
         paint.color = Color.RED
         canvas.drawCircle(
             centerX + moveLeft,
